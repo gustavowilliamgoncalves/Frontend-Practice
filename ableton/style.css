@@ -10,7 +10,7 @@
 }
 
 :root {
-    font-size: 20px;
+    font-size: 16px;
 }
 
 html,
@@ -21,11 +21,9 @@ body {
 header {
     display: flex;
     border-bottom: 4px solid #eee;
-    padding: 20px;
-}
-
-header .logo {
-    transform: translateY(5px);
+    padding: 25px 25px 25px 50px;
+    font-size: 20px;
+    font-weight: 600;
 }
 
 header a,
@@ -34,15 +32,18 @@ nav a {
     text-decoration: none;
 }
 
-header .logo,
-nav.nav-primaria {
-    margin: 10px;
+.main-nav__logo__image {
+    display: block;
+    width: 3.75em;
+    height: 1.75em;
 }
 
 header nav ul {
     display: flex;
-    gap: 30px;
+    gap: 40px;
     list-style: none;
+    margin-left: 40px;
+    transform: translateY(2.5%);
 }
 
 header nav.nav-primaria {
