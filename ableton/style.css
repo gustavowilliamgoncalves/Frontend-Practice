@@ -36,9 +36,11 @@ nav a {
     display: block;
     width: 3.75em;
     height: 1.75em;
+    cursor: pointer;
 }
 
-header nav ul {
+header nav ul,
+ul {
     display: flex;
     gap: 40px;
     list-style: none;
@@ -50,4 +52,13 @@ header nav.nav-primaria {
     width: 100%;
     display: flex;
     justify-content: space-between;
+}
+
+nav.nav-segundaria {
+    margin: 30px 20px;
+    font-weight: 600;
+}
+
+span.destaque {
+    color: #ff764d;
 }
