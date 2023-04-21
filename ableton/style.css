@@ -11,6 +11,13 @@
 
 :root {
     font-size: 16px;
+
+    --cor-amarelo: #fbffa7;
+    --cor-azul: #b1c5ff;
+    --cor-verde: #b6ffc0;
+    --cor-laranja: #ff764d;
+    --cor-lilas: #d5b3ff;
+    --cor-azul-escuro: #0000ff;
 }
 
 html,
@@ -20,7 +27,7 @@ body {
 
 header {
     display: flex;
-    border-bottom: 4px solid #eee;
+    border-bottom: 3px solid #eee;
     padding: 25px 25px 25px 50px;
     font-size: 20px;
     font-weight: 600;
@@ -60,5 +67,9 @@ nav.nav-segundaria {
 }
 
 span.destaque {
+    color: var(--cor-azul-escuro);
+}
+
+span.destaque-blue {
     color: #ff764d;
 }
